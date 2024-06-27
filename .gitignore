@@ -4,3 +4,5 @@
 terraform.*
 .terraform/
 .terraform.lock.hcl
+go-2way-ssl/*.pem
+implementations/backend/uploads/*
