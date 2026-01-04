@@ -52,6 +52,11 @@ export default function App() {
 }
 EOF
 
+rm src/index.css
+rm src/App.css
+
+remove import './index.css' from src/main.tsx
+
 npm run dev
 ```
 
